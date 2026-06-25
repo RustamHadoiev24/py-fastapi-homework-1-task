@@ -7,7 +7,7 @@ from database import (
     get_db_contextmanager,
 )
 from database.populate import CSVDatabaseSeeder
-from main import app
+from src.main import app
 
 
 @pytest_asyncio.fixture(scope="function", autouse=True)
